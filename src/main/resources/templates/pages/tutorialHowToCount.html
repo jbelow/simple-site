@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Do</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<h3>How to count:</h3>
+<ol>
+    <li>1</li>
+    <li>2</li>
+    <li>4</li>
+    <li>oh dang it, I messed up again</li>
+</ol>
+<img th:src="@{/img/ohno.png}" alt="Oh nooooo">
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

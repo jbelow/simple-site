@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>It</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<p>I am currently a Web and Software Developer at Waukesha County Technical College and on track to graduate in the fall of 2021. I am known for my organizational skills and logical process for working on technical problems.
+
+    I'm developing practical knowledge in programming languages including: Java, C#, Python, HTML, CSS, and Javascript.</p>
+
+<img th:src="@{/img/dog.jfif}" alt="really cute dog">
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
